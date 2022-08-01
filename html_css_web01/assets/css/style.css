@@ -44,16 +44,21 @@ a {
     float: right;
     margin: 15px;
     background-color: white;
-    border-radius: 10px;
-    padding: 0 10px;
+    border-radius: 20px;
+    padding: 4px 5px 4px 10px;
 }
 
 .site-search input{
     border: none;
+    float: left;
 }
 
 .site-search button{
     background: url("../image/search.png");
+    width: 16px;
+    height: 16px;
+    border: none;
+    float: right;
 }
 
 #form {
