@@ -7,6 +7,9 @@ a {
     text-decoration: none;
 }
 
+.clearfix{
+    overflow: auto;
+}
 
 .top-bar {
     width: 1000px;
