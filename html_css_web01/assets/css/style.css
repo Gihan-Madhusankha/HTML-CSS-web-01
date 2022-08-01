@@ -11,10 +11,14 @@ a {
     overflow: auto;
 }
 
+[href]:hover{
+    color: sandybrown;
+}
+
 .top-bar {
     width: 1000px;
     margin: 0 auto;
-    background-color: darkmagenta;
+    background-color: sienna;
 }
 
 .top-bar-links {
@@ -43,17 +47,19 @@ a {
 .site-search {
     float: right;
     margin: 15px;
-    background-color: white;
+    background-color: #EFF3F6;
     border-radius: 20px;
     padding: 4px 5px 4px 10px;
 }
 
-.site-search input{
+.site-search input {
     border: none;
+    outline: none;
     float: left;
+    background-color: #EFF3F6;
 }
 
-.site-search button{
+.site-search button {
     background: url("../image/search.png");
     width: 16px;
     height: 16px;
