@@ -1,18 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.top-bar{
+
+.top-bar {
     width: 1000px;
     margin: 0 auto;
     background-color: darkmagenta;
 }
 
 .site-search{
-    border: none;
+    float: right;
 }
+
+.top-bar-links {
+    float: left;
+}
+
+
+
