@@ -25,6 +25,10 @@ a {
     list-style: none;
 }
 
+.top-bar-links ul li{
+    display: inline-block;
+}
+
 .site-search{
     float: right;
 }
