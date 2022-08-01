@@ -28,6 +28,12 @@ a {
 
 .top-bar-links ul li{
     display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid white;
+}
+
+.top-bar-links ul li:last-child{
+    border: none;
 }
 
 .top-bar-links ul li a{
