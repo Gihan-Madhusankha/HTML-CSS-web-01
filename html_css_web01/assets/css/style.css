@@ -23,16 +23,24 @@ a {
 
 .top-bar-links ul{
     list-style: none;
+    margin: 15px;
 }
 
 .top-bar-links ul li{
     display: inline-block;
 }
 
+.top-bar-links ul li a{
+    color: white;
+}
+
 .site-search{
     float: right;
 }
 
+#form{
+    border: none;
+}
 
 
 
