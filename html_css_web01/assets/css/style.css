@@ -17,13 +17,18 @@ a {
     background-color: darkmagenta;
 }
 
+.top-bar-links {
+    float: left;
+}
+
+.top-bar-links ul{
+    list-style: none;
+}
+
 .site-search{
     float: right;
 }
 
-.top-bar-links {
-    float: left;
-}
 
 
 
