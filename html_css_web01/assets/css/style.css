@@ -7,7 +7,7 @@ a {
     text-decoration: none;
 }
 
-.clearfix{
+.clearfix {
     overflow: auto;
 }
 
@@ -21,30 +21,42 @@ a {
     float: left;
 }
 
-.top-bar-links ul{
+.top-bar-links ul {
     list-style: none;
     margin: 15px;
 }
 
-.top-bar-links ul li{
+.top-bar-links ul li {
     display: inline-block;
     padding: 0 10px;
     border-right: 1px solid white;
 }
 
-.top-bar-links ul li:last-child{
+.top-bar-links ul li:last-child {
     border: none;
 }
 
-.top-bar-links ul li a{
+.top-bar-links ul li a {
     color: white;
 }
 
-.site-search{
+.site-search {
     float: right;
+    margin: 15px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0 10px;
 }
 
-#form{
+.site-search input{
+    border: none;
+}
+
+.site-search button{
+    background: url("../image/search.png");
+}
+
+#form {
     border: none;
 }
 
