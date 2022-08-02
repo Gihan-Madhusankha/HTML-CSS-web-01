@@ -129,6 +129,7 @@ body {
     background: #555;
     text-align: center;
     border-radius: 5px;
+    height: 50px;
 }
 
 .nav ul {
@@ -136,8 +137,10 @@ body {
 }
 
 .nav ul li {
-    display: inline;
+    display: inline-block;
     padding: 10px 40px 10px 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav ul li a {
@@ -145,6 +148,7 @@ body {
     text-transform: uppercase;
     margin: 10px 20px 10px 20px;
     display: inline-block;
+    font-size: 14px;
 }
 
 
