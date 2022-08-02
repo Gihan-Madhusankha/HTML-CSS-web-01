@@ -18,7 +18,7 @@ a {
 .top-bar {
     width: 1000px;
     margin: 0 auto;
-    background-color: sienna;
+    background-color: #6a2606;
 }
 
 .top-bar-links {
@@ -57,6 +57,8 @@ a {
     outline: none;
     float: left;
     background-color: #EFF3F6;
+    width: 200px;
+    padding-right: 10px;
 }
 
 .site-search button {
