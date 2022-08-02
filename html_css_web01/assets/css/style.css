@@ -126,7 +126,7 @@ body {
 }
 
 .nav {
-    background: linear-gradient(#333, #444, #333);
+    background: linear-gradient(#0d0d0d, #444, #0d0d0d);
     text-align: center;
     border-radius: 5px;
     height: 50px;
@@ -151,10 +151,19 @@ body {
     font-size: 14px;
 }
 
+#person{
+    float: left;
+    margin: 30px 30px 30px 20px;
+}
 
+#person img {
+    border-radius: 5px;
+}
 
-
-
-
-
-
+.details{
+    float: right;
+    text-align: left;
+    align-items: center;
+    display: inline;
+    margin-right: 30px;
+}
