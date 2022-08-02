@@ -76,6 +76,10 @@ body {
     border: none;
 }
 
+.company-details{
+    background: #EFF3F6;
+}
+
 #company {
     font-family: "Montserrat", serif;
     font-size: 40px;
