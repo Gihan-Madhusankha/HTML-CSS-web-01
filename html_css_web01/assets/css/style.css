@@ -17,7 +17,7 @@ body {
 }
 
 .top-bar {
-    background-color: midnightblue;
+    background-color: #101010;
 }
 
 .top-bar-links {
@@ -44,7 +44,7 @@ body {
 }
 
 .top-bar-links ul li a:hover {
-    color: #b3b3ff;
+    color: #F9004D;
 }
 
 .site-search {
@@ -85,13 +85,13 @@ body {
     font-size: 40px;
     padding: 20px 20px 0 20px;
     letter-spacing: 1px;
-    color: #8080ff;
+    color: #F9004D;
 }
 
 #description {
     padding: 0 20px 20px 20px;
-    font-weight: bold;
-    color: #b3b3ff;
+    letter-spacing: 5px;
+    color: #F9004D;
 }
 
 .c-tag {
@@ -151,9 +151,14 @@ body {
 .nav ul li a {
     color: white;
     text-transform: uppercase;
+    letter-spacing: 1px;
     margin: 10px 20px 10px 20px;
     display: inline-block;
     font-size: 14px;
+}
+
+.nav ul li a:hover {
+    color: #F9004D;
 }
 
 .intro {
