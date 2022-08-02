@@ -15,9 +15,12 @@ a {
     color: sandybrown;
 }
 
-.top-bar {
+body{
     width: 1000px;
     margin: 0 auto;
+}
+
+.top-bar {
     background-color: #6a2606;
 }
 
@@ -72,6 +75,18 @@ a {
 #form {
     border: none;
 }
+
+#company{
+    font-family: "Barlow SemiBold", serif;
+    font-size: 48px;
+    padding: 20px 20px 0 20px;
+}
+
+#description{
+    padding: 0px 20px 20px 20px;
+}
+
+
 
 
 
