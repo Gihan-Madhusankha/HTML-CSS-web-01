@@ -11,11 +11,11 @@ a {
     overflow: auto;
 }
 
-[href]:hover{
+[href]:hover {
     color: sandybrown;
 }
 
-body{
+body {
     width: 1000px;
     margin: 0 auto;
 }
@@ -76,41 +76,42 @@ body{
     border: none;
 }
 
-#company{
+#company {
     font-family: "Monospaced", serif;
-    font-size: 48px;
+    font-size: 40px;
     padding: 20px 20px 0 20px;
     letter-spacing: 1px;
 }
 
-#description{
+#description {
     padding: 0 20px 20px 20px;
-    color: sienna;
+    color: darkblue;
+    font-weight: bold;
 }
 
-.c-tag{
+.c-tag {
+    margin-top: 20px;
     float: left;
 }
 
-.social-links{
+.social-links {
     float: right;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
-.social-links ul{
+.social-links ul {
     list-style: none;
     margin-right: 30px;
 }
 
-.social-links ul li{
+.social-links ul li {
     display: inline-block;
     padding: 2px;
 }
 
-.social-links ul li a{
+.social-links ul li a {
     background: darkblue;
     color: white;
-    margin: 0 auto;
     display: flex;
     padding: 6px;
     width: 20px;
