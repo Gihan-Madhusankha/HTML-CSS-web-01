@@ -77,7 +77,7 @@ body {
 }
 
 #company {
-    font-family: "Monospaced", serif;
+    font-family: "Montserrat", serif;
     font-size: 40px;
     padding: 20px 20px 0 20px;
     letter-spacing: 1px;
@@ -119,6 +119,18 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+}
+
+.nav{
+    background: #555;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav ul li{
+    display: inline-block;
 }
 
 
