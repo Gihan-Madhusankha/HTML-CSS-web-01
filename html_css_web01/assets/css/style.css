@@ -26,12 +26,12 @@ body {
 
 .top-bar-links ul {
     list-style: none;
-    margin: 15px;
+    margin: 20px;
 }
 
 .top-bar-links ul li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 15px;
     border-right: 1px solid white;
 }
 
@@ -50,6 +50,7 @@ body {
 .site-search {
     float: right;
     margin: 15px;
+    height: 25px;
     background-color: #EFF3F6;
     border-radius: 20px;
     padding: 4px 5px 4px 10px;
@@ -61,7 +62,7 @@ body {
     float: left;
     background-color: #EFF3F6;
     width: 200px;
-    padding-right: 10px;
+    padding: 5px 10px 0 5px;
 }
 
 .site-search button {
@@ -70,6 +71,7 @@ body {
     height: 16px;
     border: none;
     float: right;
+    margin: 5px 5px 0 5px;
 }
 
 #form {
@@ -89,7 +91,7 @@ body {
 }
 
 #description {
-    padding: 0 20px 20px 20px;
+    padding: 0 20px 40px 20px;
     letter-spacing: 3px;
     color: white;
 }
@@ -111,7 +113,7 @@ body {
 
 .social-links ul li {
     display: inline-block;
-    padding: 2px;
+    padding: 5px;
 }
 
 .social-links ul li a {
@@ -190,6 +192,10 @@ body {
     font-size: 40px;
     margin-top: 150px;
     color: white;
+}
+
+.details span{
+    color: #F9004D;
 }
 
 .details p {
