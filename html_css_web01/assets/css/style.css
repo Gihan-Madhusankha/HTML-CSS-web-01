@@ -76,7 +76,7 @@ body {
     border: none;
 }
 
-.company-details{
+.company-details {
     background: #EFF3F6;
 }
 
@@ -125,15 +125,25 @@ body {
     border-radius: 20px;
 }
 
-.nav{
+.nav {
     background: #555;
+    text-align: center;
+    border-radius: 5px;
 }
 
-.nav ul{
+.nav ul {
     list-style: none;
 }
 
-.nav ul li{
+.nav ul li {
+    display: inline;
+    padding: 10px 40px 10px 40px;
+}
+
+.nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    margin: 10px 20px 10px 20px;
     display: inline-block;
 }
 
