@@ -217,10 +217,10 @@ body {
 }
 
 .col-one {
-    width: 313px;
+    width: 293.33px;
     height: 500px;
     float: left;
-    margin-left: 15px;
+    margin-left: 30px;
     background-color: midnightblue;
 }
 
@@ -232,12 +232,12 @@ body {
 }
 
 .col-one img {
-    width: 313px;
+    width: 293.33px;
 }
 
 .service {
     margin-right: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 22px;
 }
 
 .service img {
