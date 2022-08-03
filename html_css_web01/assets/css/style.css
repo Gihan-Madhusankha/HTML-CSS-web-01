@@ -224,7 +224,7 @@ body {
     /*background-color: midnightblue;*/
 }
 
-.col-one p{
+.col-one p {
     color: #9A9DA8;
 }
 
@@ -277,6 +277,25 @@ body {
     color: white;
 }
 
-.quote a:hover{
+.quote a:hover {
     color: #F9004D;
+}
+
+footer{
+    width: 1000px;
+    height: 500px;
+}
+
+.footer-col{
+    width: 231.25px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 15px;
+    border-top: 1px solid black;
+}
+
+.footer-col h4{
+    padding-top: 15px;
+    color: #444444;
+    text-transform: uppercase;
 }
