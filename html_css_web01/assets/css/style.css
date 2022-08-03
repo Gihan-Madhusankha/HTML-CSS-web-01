@@ -293,6 +293,7 @@ body {
 footer {
     width: 1000px;
     height: 500px;
+    background-color: #191919;
 }
 
 .footer-col {
@@ -306,13 +307,14 @@ footer {
 
 .footer-col h4 {
     padding-top: 20px;
-    color: #444444;
+    color: lightsteelblue;
     text-transform: uppercase;
 }
 
 .tweet p {
     padding-top: 12px;
     font-size: 16px;
+    color: #9A9DA8;
 }
 
 .tweet a {
@@ -335,7 +337,7 @@ footer {
     padding-bottom: 5px;
     border-bottom: 1px solid darkgoldenrod;
     display: block;
-    color: #444444;
+    color: #9A9DA8;
 }
 
 .quicklinks ul li a:hover {
@@ -356,6 +358,7 @@ footer {
     font-size: 13px;
     clear: both;
     padding-top: 5px;
+    color: #9A9DA8;
 }
 
 .blogpost a {
@@ -364,8 +367,13 @@ footer {
     float: right;
 }
 
+.blogpost p {
+    padding-top: 20px;
+}
+
 .address {
     float: left;
+    color: #9A9DA8;
 }
 
 .address a {
@@ -373,41 +381,39 @@ footer {
     float: left;
 }
 
-.address {
-    float: left;
-}
-
 .blogpost a:hover {
     color: #F9004D;
 }
 
-.contact{
+.contact {
     margin-top: 20px;
 }
 
-.contact input{
+.contact input {
     margin-bottom: 10px;
     width: 100%;
     border-radius: 3px;
-    background-color: #eee;
-    padding: 5px;
+    background-color: #101010;
+    color: white;
+    padding: 6px;
     border: none;
     outline: none;
     font-family: inherit;
     font-size: 16px;
 }
 
-.contact textarea{
-    background-color: #eee;
+.contact textarea {
+    background-color: #101010;
+    color: white;
     border: none;
     outline: none;
-    padding: 5px;
+    padding: 6px;
     font-family: inherit;
     font-size: 16px;
     width: 100%;
 }
 
-.contact button{
+.contact button {
     width: 100px;
     height: 30px;
     border-radius: 3px;
@@ -419,24 +425,25 @@ footer {
     border: none;
     outline: none;
 }
-.contact button:hover{
+
+.contact button:hover {
     background-color: #a10535;
 }
 
-.copyrights{
+.copyrights {
     clear: both;
-    background-color: #eee;
+    background-color: #101010;
     padding: 20px;
     color: #9A9DA8;
     border-radius: 3px;
 }
 
-[id="left"]{
+[id="left"] {
     float: left;
     font-weight: normal;
 }
 
-[id="right"]{
+[id="right"] {
     float: right;
     font-weight: normal;
 }
