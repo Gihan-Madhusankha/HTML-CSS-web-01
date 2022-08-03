@@ -421,3 +421,17 @@ footer {
 .contact button:hover{
     background-color: #a10535;
 }
+
+.copyrights{
+    clear: both;
+    margin: 20px;
+    background-color: #eee;
+}
+
+[id="left"]{
+    float: left;
+}
+
+[id="right"]{
+    float: right;
+}
