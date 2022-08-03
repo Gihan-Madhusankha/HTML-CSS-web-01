@@ -340,3 +340,43 @@ footer {
 .quicklinks ul li a::before {
     content: "» ";
 }
+
+.blogpost {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.blogpost p {
+    font-size: 13px;
+    clear: both;
+    padding-top: 5px;
+}
+
+.blogpost a {
+    font-size: 14px;
+    color: #191919;
+    float: right;
+}
+
+.address{
+    float: left;
+}
+
+.address a{
+    color: red;
+    float: left;
+}
+
+.address h5{
+
+}
+
+
+
+.address {
+    float: left;
+}
+
+.blogpost a:hover {
+    color: #F9004D;
+}
