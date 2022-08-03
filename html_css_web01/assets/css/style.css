@@ -333,10 +333,6 @@ footer {
     color: #444444;
 }
 
-.quicklinks ul li a:hover{
+.quicklinks ul li a:hover {
     color: #F9004D;
-}
-
-.quicklinks ul li a::before{
-    content: "» ";
 }
