@@ -7,7 +7,7 @@ a {
     text-decoration: none;
 }
 
-p{
+p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -231,6 +231,26 @@ body {
     font-size: 30px;
 }
 
-.col-one img{
+.col-one img {
     width: 313px;
+}
+
+.service {
+    margin-right: 15px;
+    margin-bottom: 40px;
+}
+
+.service img {
+    width: 75px;
+    border-radius: 5px;
+    padding-right: 15px;
+    float: left;
+}
+
+.service h3 {
+    font-size: 16px;
+}
+
+.service p {
+    font-size: 12px;
 }
