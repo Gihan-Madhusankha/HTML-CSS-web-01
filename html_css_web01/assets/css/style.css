@@ -218,7 +218,7 @@ body {
 
 .col-one {
     width: 293.33px;
-    height: 500px;
+    height: 600px;
     float: left;
     margin-left: 30px;
     /*background-color: midnightblue;*/
@@ -226,6 +226,8 @@ body {
 
 .col-one p {
     color: #9A9DA8;
+    font-size: 18px;
+    margin-top: 25px;
 }
 
 .col-one h2 {
@@ -242,7 +244,7 @@ body {
 
 .service {
     margin-right: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 55px;
 }
 
 .service img {
@@ -253,8 +255,13 @@ body {
 }
 
 .service h3 {
-    font-size: 16px;
+    font-size: 18px;
     color: #d9d9d9;
+}
+
+.service p {
+    font-size: 18px;
+    margin-top: 0;
 }
 
 .quote i {
@@ -263,30 +270,32 @@ body {
 }
 
 .quote h3 {
-    margin: 25px 0 15px 15px;
+    margin: 25px 0 12px 15px;
     float: left;
     color: #d9d9d9;
 }
 
 .quote p {
+    font-size: 18px;
     clear: both;
 }
 
 .quote a {
     float: right;
-    color: white;
+    color: sandybrown;
+    margin-top: 0;
 }
 
 .quote a:hover {
     color: #F9004D;
 }
 
-footer{
+footer {
     width: 1000px;
     height: 500px;
 }
 
-.footer-col{
+.footer-col {
     width: 231.25px;
     float: left;
     margin-top: 40px;
@@ -294,8 +303,36 @@ footer{
     border-top: 1px solid black;
 }
 
-.footer-col h4{
-    padding-top: 15px;
+.footer-col h4 {
+    padding-top: 20px;
     color: #444444;
     text-transform: uppercase;
+}
+
+.tweet p {
+    padding-top: 12px;
+    font-size: 16px;
+}
+
+.quicklinks {
+    padding-top: 20px;
+}
+
+.quicklinks ul {
+    list-style: none;
+}
+
+.quicklinks ul li {
+    margin-bottom: 5px;
+}
+
+.quicklinks ul li a {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #333333;
+    display: block;
+    color: #444444;
+}
+
+.quicklinks ul li a:hover{
+    color: #F9004D;
 }
