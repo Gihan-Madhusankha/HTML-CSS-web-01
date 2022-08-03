@@ -301,6 +301,7 @@ footer {
     margin-top: 40px;
     margin-left: 15px;
     border-top: 1px solid black;
+    height: 400px;
 }
 
 .footer-col h4 {
@@ -424,14 +425,18 @@ footer {
 
 .copyrights{
     clear: both;
-    margin: 20px;
     background-color: #eee;
+    padding: 20px;
+    color: #9A9DA8;
+    border-radius: 3px;
 }
 
 [id="left"]{
     float: left;
+    font-weight: normal;
 }
 
 [id="right"]{
     float: right;
+    font-weight: normal;
 }
