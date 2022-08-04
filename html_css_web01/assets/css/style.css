@@ -168,7 +168,7 @@ body {
 }
 
 .nav {
-    background: linear-gradient(#0d0d0d, #444, #0d0d0d);
+    background: linear-gradient(#191919, #252525, #303030, #252525, #191919);
     text-align: center;
     height: 50px;
 }
@@ -265,7 +265,7 @@ body {
 
 .col-one h2 {
     font-family: 'Poppins', sans-serif;
-    font-weight: initial;
+    font-weight: unset;
     margin: 30px 0 30px 0;
     font-size: 27px;
     color: lightsteelblue;
